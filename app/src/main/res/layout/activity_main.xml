@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <!-- App Title -->
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TypeFlow"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Timer -->
+        <TextView
+            android:id="@+id/textTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: 15s"
+            android:textColor="#FFEB3B"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Sentence to Type -->
+        <TextView
+            android:id="@+id/textSentence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Press Start to begin typing test."
+            android:textColor="#E0E0E0"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:background="@drawable/share"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Typing Input -->
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/inputTyping"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/rounded_textview"
+            android:hint="Type the sentence here..."
+            android:inputType="textMultiLine"
+            android:padding="14dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:gravity="top|start"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Start Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="Start Typing Test"
+            android:background="@drawable/blue_gradient"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Restart Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRestart"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="Restart Test"
+            android:background="@drawable/restart"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone" />
+
+        <!-- Stats Title -->
+        <TextView
+            android:id="@+id/textStatsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Performance"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Speed Result -->
+        <TextView
+            android:id="@+id/textSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed: 0 WPM"
+            android:textColor="#4CAF50"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Accuracy Result -->
+        <TextView
+            android:id="@+id/textAccuracy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accuracy: 0%"
+            android:textColor="#03A9F4"
+            android:textSize="20sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Share Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="Share Result"
+            android:background="@drawable/blue_gradient"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
