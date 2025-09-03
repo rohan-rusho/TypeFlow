@@ -16,14 +16,14 @@ TypeFlow is a minimalist Android application designed to help users improve thei
 
 ## Screenshots
 
-![Screenshot 1](Screenshot%202025-09-03%20141225.png)
-![Screenshot 2](Screenshot%202025-09-03%20141353.png)
-![Screenshot 3](Screenshot%202025-09-03%20141403.png)
+![Screenshot 1](SS/Screenshot%202025-09-03%20141225.png)
+![Screenshot 2](SS/Screenshot%202025-09-03%20141353.png)
+![Screenshot 3](SS/Screenshot%202025-09-03%20141403.png)
 
 <!--
-<img src="Screenshot 2025-09-03 141225.png" width="200"/>
-<img src="Screenshot 2025-09-03 141353.png" width="200"/>
-<img src="Screenshot 2025-09-03 141403.png" width="200"/>
+<img src="SS/Screenshot%202025-09-03%20141225.png" width="200"/>
+<img src="SS/Screenshot%202025-09-03%20141353.png" width="200"/>
+<img src="SS/Screenshot%202025-09-03%20141403.png" width="200"/>
 -->
 
 ## Getting Started
@@ -38,7 +38,7 @@ TypeFlow is a minimalist Android application designed to help users improve thei
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/typeflow.git
+    git clone https://github.com/rohan-rusho/typeflow.git
     ```
 2. **Open in Android Studio:**
     - Launch Android Studio.
@@ -68,4 +68,4 @@ Contributions are welcome! If you have suggestions for new features, improvement
 
 ## Contact
 
-For questions, feedback, or support, please reach out via [GitHub Issues](https://github.com/your-username/typeflow/issues) or email [your-email@example.com].
+For questions, feedback, or support, please reach out via [GitHub Issues](https://github.com/rohan-rusho/typeflow/issues) or email [your-email@example.com].
